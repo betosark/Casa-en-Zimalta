@@ -5,7 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Casa en Zimaltá en venta, Tlaquepaque, Jalisco. 3 recámaras, 2 baños completos, medio baño, cochera para 2 autos y roof garden.">
 <title>Casa en Zimaltá | En venta</title>
-<style></style>
+<style>
+.gallery-inicial {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.gallery-inicial figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.gallery-inicial figure:first-child {
+  grid-row: 1 / 3;
+}
+
+.gallery-inicial img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+</style>
 <body>
 <header class="hero">
 
