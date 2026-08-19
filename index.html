@@ -35,7 +35,15 @@
   gap: 10px;
 }
 
+.gallery-completa {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
 .gallery-completa figure {
+  width: 100%;
+  aspect-ratio: 3 / 2;
   margin: 0;
   overflow: hidden;
   border-radius: 10px;
@@ -47,12 +55,6 @@
   object-fit: cover;
   display: block;
 }
-.gallery-completa figure {
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  margin: 0;
-  overflow: hidden;
-  border-radius: 10px;
 }
 }
 </style>
